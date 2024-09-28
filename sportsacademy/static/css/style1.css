@@ -1,0 +1,155 @@
+body {
+    /* background-image: linear-gradient(120deg, #faf8f8 0%, white 100%); */
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    /* background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); */
+}
+
+main {
+    min-height: 35rem;
+}
+
+.btn-style {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: transparent;
+    width: fit-content;
+    outline: none;
+    border: 0.125rem solid blueviolet;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+}
+
+.btn-style:hover {
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    box-shadow: 3px 5px 6px rgb(190, 132, 245);
+    font-weight: 600;
+}
+
+
+.nav-item .nav-link:hover {
+    /* color: #ab3288; */
+    font-weight: 600;
+    /* font-size: 1.1rem; */
+    color: black;
+    border-bottom: 2px solid black;
+    transition: 0.2s ease-in-out;
+}
+
+.sub-nav ul {
+    width: 100%;
+    text-decoration: none;
+}
+
+.sub-nav a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 1.5rem 0 1.5rem;
+    transition: 0.09s ease-out;
+
+}
+
+.sub-nav a:visited {
+    color: black;
+}
+
+.sub-nav a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+    /* background-color: rgb(96, 88, 88); 
+    border-radius: 5px;    */
+}
+
+.logged-username{
+    text-transform: capitalize;
+}
+
+
+/* ----------navbar css end------------- */
+
+
+.container {
+    /* ----------general container css start------------- */
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+/* ----------general container css start------------- */
+
+/* ----------scroll-bar css start------------- */
+::-webkit-scrollbar {
+    width: 0.3rem;
+    background-color: rgb(245, 244, 244);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    border-radius: 5rem;
+}
+
+/* ----------scroll-bar css end------------- */
+
+
+/* ------------------- login page css start.html ------------------- */
+
+.login-container {
+    height: 100vh
+}
+
+.input-group {
+    margin: 2.0rem 0;
+}
+
+
+.login-button {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: transparent;
+    width: 95%;
+    outline: none;
+    border: 0.125rem solid blueviolet;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+}
+
+.login-button:hover {
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    box-shadow: 3px 5px 6px rgb(190, 132, 245);
+    font-weight: 600;
+}
+
+
+.loginbutton {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: transparent;
+    width: fit-content;
+    outline: none;
+    border: 0.125rem solid blueviolet;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+}
+
+.loginbutton:hover {
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    box-shadow: 3px 5px 6px rgb(190, 132, 245);
+    font-weight: 600;
+}
+
+/* ------------------- login page css end.html ------------------- */
